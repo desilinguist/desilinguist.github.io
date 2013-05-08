@@ -1,0 +1,146 @@
+body {
+  margin-left: 40pt;
+  margin-top: 40pt;
+  width: 570pt;
+  font-family: georgia, optima, palatino, verdana, arial, sans-serif;
+  font-size: 11pt;
+  line-height: 17pt;
+  background-color: #fffefc;
+}
+
+tt {
+  font-size: 11pt;
+}
+
+tbody {
+  font-size: 11pt;
+}
+
+
+pre {
+  font-size: 10pt;
+}
+
+dl {
+  font-size: 11pt;
+  line-height: 17pt;
+}
+
+smalltext {
+  font-size: 9pt;
+}
+
+a:focus,
+a:hover     { color: #990000; border-bottom:1px solid #990000; }
+a           { color: #990000; text-decoration: none; border-bottom:1px dashed #990000; }
+
+a.image     { border-bottom: none; }
+
+span.heading {
+  font-weight: bold;
+  font-size: large;
+}
+
+img         { border: none;}
+/*a:link {
+  text-decoration: none;
+  color: #990000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #660000;
+}*/
+
+div.section {
+  /*background-color: #E8E8E8;*/
+  /*padding: 10px 10px 10px 10px;*/
+}
+
+h1 {
+ font-size: 20pt;
+ font-weight: normal;
+}
+
+h2 {
+ font-size: 14pt;
+ font-weight: normal;
+}
+
+h3 {
+ font-size: 11pt;
+ font-weight: normal;
+}
+
+.MT {
+ font-size: 75%;
+ color: white;
+ background-color: #dc143c;
+ vertical-align: middle;
+ text-align: center;
+}
+
+.paraphrase {
+ font-size: 75%;
+ color: white;
+ background-color: #006400;
+ vertical-align: middle;
+ text-align: center;
+}
+
+.crowd {
+ font-size: 75%;
+ color: white;
+ background-color: #6633cc;
+ vertical-align: middle;
+ text-align: center;
+}
+
+.IR {
+ font-size: 75%;
+ color: white;
+ background-color: #ffd700;
+ vertical-align: middle;
+ text-align: center;
+}
+
+
+.IE {
+ font-size: 75%;
+ color: white;
+ background-color: #8b7355;
+ vertical-align: middle;
+ text-align: center;
+}
+
+.python {
+ font-size: 75%;
+ color: white;
+ background-color: #ff7f24;
+ vertical-align: middle;
+ text-align: center;
+}
+
+.teaching {
+ font-size: 75%;
+ color: white;
+ background-color: #7f7f7f;
+ vertical-align: middle;
+ text-align: center;
+}
+
+.grammar {
+ font-size: 75%;
+ color: white;
+ background-color: #00008b;
+ vertical-align: middle;
+ text-align: center;
+}
+
+.summ {
+ font-size: 75%;
+ color: white;
+ background-color: #8b008b;
+ vertical-align: middle;
+ text-align: center;
+}
