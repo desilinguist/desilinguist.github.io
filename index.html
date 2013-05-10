@@ -7,26 +7,28 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" /> -->
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
     <link rel=stylesheet type="text/css" href="stylesheets/home.css">
 <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <title>Nitin Madnani</title>
   </head>
-<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> -->
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"> -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
 <script type="text/javascript">
+  // var _gaq = _gaq || [];
+  // _gaq.push(['_setAccount', 'UA-12307064-2']);
+  // _gaq.push(['_trackPageview']);
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-12307064-2']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
+  // (function() {
+  //   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  //   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  //   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  // })();
+  $(function() {
+    $( "#tabs" ).tabs({ selected: 0 });
+  });
 </script>
 <body>
 <p><a name="top"></a></p>
@@ -37,21 +39,23 @@
 <dt>Mailing address</dt>
 <dd>Nitin Madnani<br/>
 666 Rosedale Rd., MS 13-R<br />
-Princeton, NJ 08541</dd><dt>Phone</dt><dd>(O) +1-609-734-5898</dd><dt>E-mail</dt><dd>(first initial+last name)@ets.org</dd><dt>Research Interests</dt><dd>Automatic Paraphrase Generation &amp; Recognition</dd><dd>Statistical Machine Translation</dd><dd>Machine Learning</dd><dd>Information Visualization</dd><dd>Automatic Text Summarization</dd><dd>Computer Science Education</dd></dl>
+Princeton, NJ 08541</dd><dt>Phone</dt><dd>(O) +1-609-734-5898</dd><dt>E-mail</dt><dd>(first initial+last name)@ets.org</dd>
+<!-- <dt>Research Interests</dt><dd>Automatic Paraphrase Generation &amp; Recognition</dd><dd>Statistical Machine Translation</dd><dd>Machine Learning</dd><dd>Information Visualization</dd><dd>Automatic Text Summarization</dd><dd>Computer Science Education</dd> -->
+</dl>
 <p></p>
 <dl><dt><strong><a href="pdf/madnani-cv.pdf">Complete Curriculum Vitae</a></strong></dt><!--<dt>My Academic Life</dt> <dd><a href="pdf/madnani-cv.pdf" mce_href="pdf/madnani-cv.pdf">Complete Curriculum Vitae</a></dd> <dd><a href="pdf/madnani-research.pdf" mce_href="pdf/madnani-research.pdf">Statement of Research</a></dd> <dd><a href="pdf/madnani-teaching.pdf" mce_href="pdf/madnani-teaching.pdf">Statement of Teaching</a></dd>--></dl>
-<p>I am currently an Associate Research Scientist with the Text, Language and Computation research group at the <a href="http://www.ets.org">Educational Testing Service</a>. In my earlier life (which ended in May 2010), I was a Ph.D. student in the <a href="http://www.cs.umd.edu">Department of Computer Science</a> at <a href="http://www.umd.edu">University of Maryland, College Park</a>. I was also a graduate research assistant in the <a href="http://www.umiacs.umd.edu/research/CLIP">Computational Linguistics and Information Processing Laboratory</a> at the <a href="http://www.umiacs.umd.edu">Institute for Advanced Computer Studies</a>, where I worked with my advisor, <a href="http://www.umiacs.umd.edu/~bonnie">Bonnie Dorr</a>.</p>
+<p>I am currently an Associate Research Scientist with the Text, Language and Computation research group at the <a href="http://www.ets.org">Educational Testing Service</a>. I obtained my Ph.D. from the <a href="http://www.cs.umd.edu">Department of Computer Science</a> at <a href="http://www.umd.edu">University of Maryland, College Park</a>. I was also a graduate research assistant in the <a href="http://www.umiacs.umd.edu/research/CLIP">Computational Linguistics and Information Processing Laboratory</a> at the <a href="http://www.umiacs.umd.edu">Institute for Advanced Computer Studies</a>, where I worked with my advisor, <a href="http://www.umiacs.umd.edu/~bonnie">Bonnie Dorr</a>.</p>
 <p>In general, my research has been focused on building systems&mdash;with underlying computational models of language&mdash;that process written text so as to enhance our experience with those texts. As an example, in my dissertation, I demonstrated the existence of a concrete symbiotic semantic relationship between systems that translate text and those that paraphrase text; I then exploited this relationship to build better translation and paraphrasing systems. Besides machine translation and paraphrase generation, I have also worked on automatic summarization and information retrieval systems. I am also particularly interested in information and data visualization and over the last few years, I have worked on some interesting projects such as <a href="http://www.desilinguist.org/emily">visualizing poetry for humanity scholars</a> and <a href="http://ibleu.googlecode.com">interactive scoring for statistical machine translation systems</a>.</p>
 <p>I have also had a great time teaching computer science during my days as a graduate student and I am hoping to be involved with more of that in the future.</p>
-<p><span class="heading">Education</span></p>
+<!-- <p><span class="heading">Education</span></p>
 <div class="section">
 <ul>
 <li>Ph.D., <a href="http://www.cs.umd.edu">Department of Computer Science</a>, University of Maryland, May 2010.</li>
 <li>M.S., <a href="http://www.ece.umd.edu">Department of Electrical &amp; Computer Engineering</a>, University of Maryland, 2004</li>
 <li>B.E., Department of Electrical Engineering, <a href="http://www.pec.ac.in">Punjab Engineering College</a>, India, 2000</li>
 </ul>
-</div>
-<p><span class="heading">Experience</span></p>
+</div> -->
+<!-- <p><span class="heading">Experience</span></p>
 <div class="section">
 <ul>
 <li>Research:
@@ -63,239 +67,213 @@ Princeton, NJ 08541</dd><dt>Phone</dt><dd>(O) +1-609-734-5898</dd><dt>E-mail</dt
 </li>
 <li>Teaching:
 <ul>
-<li>Spring 2010, Instructor, <i>Data-Intensive Information Processing Applications</i> <!--
-<li>Fall 2009, Guest Lecturer, <i><a href="http://www.umiacs.umd.edu/~jimmylin/CMSC723-2009-Fall/" mce_href="http://www.umiacs.umd.edu/~jimmylin/CMSC723-2009-Fall/">Computational Linguistics I</a></i></li>
---></li>
+<li>Spring 2010, Instructor, <i>Data-Intensive Information Processing Applications</i> </li>
 <li>Fall 2009, Guest Lecturer, <i>Computational Linguistics I</i></li>
-<!--
-<li>Fall 2008, Instructor, <i><a href="http://www.umiacs.umd.edu/~saif/WebPages/CS723.htm" mce_href="http://www.umiacs.umd.edu/~saif/WebPages/CS723.htm">Computational Linguistics I</a></i></li>
--->
 <li>Fall 2008, Instructor, <i>Computational Linguistics I</i></li>
-<!--
-<li>Fall 2007, Instructor, <i><a href="http://www.umiacs.umd.edu/~bonnie/courses/cmsc723-Fall07" mce_href="http://www.umiacs.umd.edu/~bonnie/courses/cmsc723-Fall07">Computational Linguistics I</a></i></li>
--->
 <li>Fall 2007, Instructor, <i>Computational Linguistics I</i></li>
 <li>Fall 2004, Graduate Teaching Assistant, <i>Introduction to Natural Language Processing</i></li>
-<!--
-<li>1998, Undergraduate Teaching Assistant, <i>Digital Computations</i>, Punjab Engineering College</li>
---></ul>
+</ul>
 </li>
 </ul>
-</div>
-<p><span class="heading" id="pubheading">Publications</span></p>
-<div class="section" id="mainpubs">
+</div> -->
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1" class="tabname">Publications</a></li>
+    <li><a href="#tabs-2" class="tabname">Software</a></li>
+    <li><a href="#tabs-3" class="tabname">Invited Talks &amp; Miscellenea</a></li>
+  </ul>
+<div id="tabs-1" class="tabsection">
+<span style="font-size: 75%; font-weight: bold;">(Note: scroll down for full list)</span>
 <table border="0">
 <tbody>
 <tr>
-<td style="padding: 5px;">
-<div style="font-size: 125%; font-weight: bold;">2013</div>
-</td>
+<td style="padding: 5px;">Detecting Missing Hyphens in Learner Text. 2013. In <i>Proc. 8th Workshop on Innovative Use of Natural Language Processing for Building Educational Applications (BEA).</i> Aoife Cahill, Martin Chodorow, Susanne Wolff and Nitin Madnani.</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Sentiment Analysis and Detection for Essay Evaluation. Jill Burstein, Beata Beigman-Klebanov, Nitin Madnani and Adam Faulkner. <i>Handbook for Automated Essay Scoring, Mark D. Shermis and Jill Burstein (eds.), Taylor and Francis.</i> [To appear]</td>
+<td style="padding: 5px;">Automated Scoring of a Summary-Writing Task Designed to Measure Reading Comprehension. 2013. In <i>Proc. 8th Workshop on Innovative Use of Natural Language Processing for Building Educational Applications (BEA).</i> Nitin Madnani, Jill Burstein and John Sabatini.</td>
 </tr>
 <tr>
-<td style="padding: 5px;">The E-rater Automated Essay Scoring System. Jill Burstein, Joel Tetreault and Nitin Madnani. <i>Handbook for Automated Essay Scoring, Mark D. Shermis and Jill Burstein (eds.), Taylor and Francis.</i> [To appear]</td>
+<td style="padding: 5px;">Robust Systems for Preposition Error Correction Using Wikipedia Revisions. 2013. In <i>Proc. NAACL.</i> Aoife Cahill, Nitin Madnani, Joel Tetreault and Diane Napolitano.</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Detecting Missing Hyphens in Learner Text. In <i>Proc. of the 8th Workshop on Innovative Use of Natural Language Processing for Building Educational Applications (BEA).</i> Aoife Cahill, Martin Chodorow, Susanne Wolff and Nitin Madnani. [To appear]</td>
+<td style="padding: 5px;">Using Pivot-based Paraphrasing and Sentiment Profiles to Improve a Subjectivity Lexicon for Essay Data. 2013. <i> Transactions of the Association for Computational Linguistics.</i> Beata Beigman Klebanov, Nitin Madnani and Jill Burstein.</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Automated Scoring of a Summary-Writing Task Designed to Measure Reading Comprehension. In <i>Proc. of the 8th Workshop on Innovative Use of Natural Language Processing for Building Educational Applications (BEA).</i> Nitin Madnani, Jill Burstein and John Sabatini. [To appear]</td>
+<td style="padding: 5px;">Sentiment Profiles of Multi-Word Expressions in Test-Taker Essays: The Case of Noun-Noun Compounds. 2013. <i>ACM Transactions on Speech and Language Processing.</i> Beata Beigman Klebanov, Jill Burstein and Nitin Madnani.</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Robust Systems for Preposition Error Correction Using Wikipedia Revisions. In <i>Proc. NAACL.</i> Aoife Cahill, Nitin Madnani, Joel Tetreault and Diane Napolitano. [To appear]</td>
+<td style="padding: 5px;">Sentiment Analysis and Detection for Essay Evaluation. 2013. Jill Burstein, Beata Beigman-Klebanov, Nitin Madnani and Adam Faulkner. <i>Handbook for Automated Essay Scoring, Mark D. Shermis and Jill Burstein (eds.), Taylor and Francis.</i> <a href="http://www.taylorandfrancis.com/books/details/9780415810968/">[link]</a></td>
 </tr>
 <tr>
-<td style="padding: 5px;">Using Pivot-based Paraphrasing and Sentiment Profiles to Improve a Subjectivity Lexicon for Essay Data.<i> Transactions of the Association for Computational Linguistics.</i> Beata Beigman Klebanov, Nitin Madnani and Jill Burstein. [To appear]</td>
+<td style="padding: 5px;">The E-rater Automated Essay Scoring System. Jill Burstein, Joel Tetreault and Nitin Madnani. 2013. <i>Handbook for Automated Essay Scoring, Mark D. Shermis and Jill Burstein (eds.), Taylor and Francis.</i> <a href="http://www.taylorandfrancis.com/books/details/9780415810968/">[link]</a></td>
 </tr>
 <tr>
-<td style="padding: 5px;">Sentiment Profiles of Multi-Word Expressions in Test-Taker Essays: The Case of Noun-Noun Compounds. <i>ACM Transactions on Speech and Language Processing.</i> Beata Beigman Klebanov, Jill Burstein and Nitin Madnani. [To appear]</td>
+<td style="padding: 5px;">Generating Targeted Paraphrases for Improved Translation. 2013. <i> ACM Transactions on Intelligent Systems and Technology, 4(3).</i> Nitin Madnani and Bonnie Dorr. [<a href="http://tist.acm.org/papers/ACM-TIST-V4N3-TIST-2011-02-0020.R1.pdf">pdf</a>]&nbsp;[<a href="bib/madnani-dorr-tist-2013.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Generating Targeted Paraphrases for Improved Translation. <i> ACM Transactions on Intelligent Systems and Technology, 4(3).</i> Nitin Madnani and Bonnie Dorr. [<a href="http://tist.acm.org/papers/ACM-TIST-V4N3-TIST-2011-02-0020.R1.pdf">pdf</a>]&nbsp;[<a href="bib/madnani-dorr-tist-2013.bib">bib</a>]</td>
+<td style="padding: 5px;">Topical Trends in a Corpus of Persuasive Writing. 2012. <i> ETS Research Report Series, RR-12-19. </i> Michael Heilman and Nitin Madnani. [<a href="http://www.ets.org/Media/Research/pdf/RR-12-19.pdf">pdf</a>]&nbsp;[<a href="bib/topical-trends-ets-rr.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">
-<div style="font-size: 125%; font-weight: bold;">2012</div>
-</td>
+<td style="padding: 5px;">Discriminative Edit Models for Paraphrase Scoring. 2012. In <i>Proc. of the 6th International Workshop on Semantic Evaluation (SemEval).</i> Michael Heilman and Nitin Madnani. [<a href="http://aclweb.org/anthology-new/S/S12/S12-1076.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/S/S12/S12-1076.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Topical Trends in a Corpus of Persuasive Writing.<i> ETS Research Report Series, RR-12-19. </i> Michael Heilman and Nitin Madnani. [<a href="http://www.ets.org/Media/Research/pdf/RR-12-19.pdf">pdf</a>]&nbsp;[<a href="bib/topical-trends-ets-rr.bib">bib</a>]</td>
+<td style="padding: 5px;">Exploring Grammatical Error Correction with Not-So-Crummy Machine Translation. 2012. In <i>Proc. 7th Workshop on Innovative Use of Natural Language Processing for Building Educational Applications (BEA).</i> Nitin Madnani, Joel Tetreault and Martin Chodorow. [<a href="http://aclweb.org/anthology-new/W/W12/W12-2005.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W12/W12-2005.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Discriminative Edit Models for Paraphrase Scoring. In <i>Proc. of the 6th International Workshop on Semantic Evaluation (SemEval).</i> Michael Heilman and Nitin Madnani. [<a href="http://aclweb.org/anthology-new/S/S12/S12-1076.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/S/S12/S12-1076.bib">bib</a>]</td>
+<td style="padding: 5px;">Re-examining Machine Translation Metrics for Paraphrase Identification. 2012. In <i>Proc. NAACL.</i> Nitin Madnani, Joel Tetreault and Martin Chodorow. [<a href="http://aclweb.org/anthology-new/N/N12/N12-1019.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/N/N12/N12-1019.bib">bib</a>]&nbsp;[<a href="software/mt-metrics-paraphrase-data.zip">zip</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Exploring Grammatical Error Correction with Not-So-Crummy Machine Translation. In <i>Proc. of the 7th Workshop on Innovative Use of Natural Language Processing for Building Educational Applications (BEA).</i> Nitin Madnani, Joel Tetreault and Martin Chodorow. [<a href="http://aclweb.org/anthology-new/W/W12/W12-2005.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W12/W12-2005.bib">bib</a>]</td>
+<td style="padding: 5px;">Identifying High Level Organizational Elements in Argumentative Discourse. 2012. In <i>Proc. NAACL.</i> Nitin Madnani, Michael Heilman, Joel Tetreault and Martin Chodorow. [<a href="http://aclweb.org/anthology-new/N/N12/N12-1003.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/N/N12/N12-1003.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Re-examining Machine Translation Metrics for Paraphrase Identification. In <i>Proc. NAACL.</i> Nitin Madnani, Joel Tetreault and Martin Chodorow. [<a href="http://aclweb.org/anthology-new/N/N12/N12-1019.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/N/N12/N12-1019.bib">bib</a>]&nbsp;[<a href="software/mt-metrics-paraphrase-data.zip">zip</a>]</td>
+<td style="padding: 5px;">Building Subjectivity Lexicon(s) from Scratch for Essay Data. 2012. In <i>Proc. CICLing.</i> Beata Beigman Klebanov, Jill Burstein, Nitin Madnani and Adam Faulkner. [<a href="pdf/cicling-sentiment.pdf">pdf</a>]&nbsp;[<a href="bib/cicling-sentiment.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Identifying High Level Organizational Elements in Argumentative Discourse. In <i>Proc. NAACL.</i> Nitin Madnani, Michael Heilman, Joel Tetreault and Martin Chodorow. [<a href="http://aclweb.org/anthology-new/N/N12/N12-1003.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/N/N12/N12-1003.bib">bib</a>]</td>
+<td style="padding: 5px;">iBLEU: Interactively Scoring and Debugging Statistical Machine Translation Systems. 2011. In <i>Proc. Fifth IEEE International Conference on Semantic Computing (Demos).</i> Nitin Madnani. [<a href="pdf/ieee-ibleu.pdf">pdf</a>]&nbsp;[<a href="bib/ieee-ibleu.bib">bib</a>]&nbsp;[<a href="http://ibleu.googlecode.com">website</a>] <!-- <span class="mt">&nbsp;MT&nbsp;</span>&nbsp;<span class="grammar">&nbsp;Grammatical Errors&nbsp;</span> --></td>
 </tr>
 <tr>
-<td style="padding: 5px;">Building Subjectivity Lexicon(s) from Scratch for Essay Data. In <i>Proc. CICLing.</i> Beata Beigman Klebanov, Jill Burstein, Nitin Madnani and Adam Faulkner. [<a href="pdf/cicling-sentiment.pdf">pdf</a>]&nbsp;[<a href="bib/cicling-sentiment.bib">bib</a>]</td>
+<td style="padding: 5px;">E-rating Machine Translation. 2011. In <i>Proc. WMT.</i> Kristen Parton, Joel Tetreault, Nitin Madnani, Martin Chodorow. [<a href="http://aclweb.org/anthology-new/W/W11/W11-2111.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W11/W11-2111.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">
-<div style="font-size: 125%; font-weight: bold;">2011</div>
-</td>
+<td style="padding: 5px;">They Can Help: Using Crowdsourcing to Improve the Evaluation of Grammatical Error Detection Systems. 2011. In <i>Proc. ACL (Short Papers).</i> Nitin Madnani, Joel Tetreault, Martin Chodorow and Alla Rozovskaya. [<a href="http://aclweb.org/anthology-new/P/P11/P11-2089.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/P/P11/P11-2089.bib">bib</a>]&nbsp;[<a href="software/grammar-code-data.tar.gz">tgz</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">iBLEU: Interactively Scoring and Debugging Statistical Machine Translation Systems. In <i>Proc. of the Fifth IEEE International Conference on Semantic Computing (Demos).</i> Nitin Madnani. [<a href="pdf/ieee-ibleu.pdf">pdf</a>]&nbsp;[<a href="bib/ieee-ibleu.bib">bib</a>]&nbsp;[<a href="http://ibleu.googlecode.com">website</a>] <!-- <span class="mt">&nbsp;MT&nbsp;</span>&nbsp;<span class="grammar">&nbsp;Grammatical Errors&nbsp;</span> --></td>
+<td style="padding: 5px;">The Web is not a PERSON, Berners-Lee is not an ORGANIZATION, and African-Americans are not LOCATIONS: An Analysis of the Performance of Named-Entity Recognition. 2011. In <i> Proc. Workshop on Multiword Expressions.</i> Bob Krovetz, Paul Deane and Nitin Madnani. [<a href="http://aclweb.org/anthology-new/W/W11/W11-0810.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W11/W11-0810.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">E-rating Machine Translation. In <i>Proc. WMT.</i> Kristen Parton, Joel Tetreault, Nitin Madnani, Martin Chodorow. [<a href="http://aclweb.org/anthology-new/W/W11/W11-2111.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W11/W11-2111.bib">bib</a>]</td>
+<td style="padding: 5px;">Machine Translation Evaluation and Optimization. 2010. <i>Handbook of Natural Language Processing and Machine Translation. Joseph Olive, John McCary, and Caitlin Christianson (eds.)</i> Yaser Al-Onaisan, Bonnie Dorr, Doug Jones, Jeremy Kahn, Seth Kulick, Alon Lavie, Gregor Leusch, Nitin Madnani, Chris Manning, Arne Mauser, Alok Parlikar, Mark Przybocki, Rich Schwartz, Matt Snover, Stephan Vogel and Clare Voss. [<a href="http://www.springer.com/computer/ai/book/978-1-4419-7712-0">html</a>] <!-- <span class="mt">&nbsp;MT&nbsp;</span><br /> --></td>
 </tr>
 <tr>
-<td style="padding: 5px;">They Can Help: Using Crowdsourcing to Improve the Evaluation of Grammatical Error Detection Systems. In <i>Proc. ACL (Short Papers).</i> Nitin Madnani, Joel Tetreault, Martin Chodorow and Alla Rozovskaya. [<a href="http://aclweb.org/anthology-new/P/P11/P11-2089.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/P/P11/P11-2089.bib">bib</a>]&nbsp;[<a href="software/grammar-code-data.tar.gz">tgz</a>]</td>
+<td style="padding: 5px;">Putting the User in the Loop: Interactive Maximal Marginal Relevance for Query-Focused Summarization. 2010. In <i>Proc. NAACL (Short Papers).</i> Jimmy Lin, Nitin Madnani and Bonnie J. Dorr. [<a href="http://aclweb.org/anthology-new/N/N10/N10-1041.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/N/N10/N10-1041.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">The Web is not a PERSON, Berners-Lee is not an ORGANIZATION, and African-Americans are not LOCATIONS: An Analysis of the Performance of Named-Entity Recognition. In <i> Proc. of the ACL 2011 Workshop on Multiword Expressions.</i> Bob Krovetz, Paul Deane and Nitin Madnani. [<a href="http://aclweb.org/anthology-new/W/W11/W11-0810.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W11/W11-0810.bib">bib</a>]</td>
-</tr>
-<tr>
-<td style="padding: 5px;">Machine Translation Evaluation and Optimization. <i>Handbook of Natural Language Processing and Machine Translation. Joseph Olive, John McCary, and Caitlin Christianson (eds.)</i> Yaser Al-Onaisan, Bonnie Dorr, Doug Jones, Jeremy Kahn, Seth Kulick, Alon Lavie, Gregor Leusch, Nitin Madnani, Chris Manning, Arne Mauser, Alok Parlikar, Mark Przybocki, Rich Schwartz, Matt Snover, Stephan Vogel and Clare Voss. [<a href="http://www.springer.com/computer/ai/book/978-1-4419-7712-0">html</a>] <!-- <span class="mt">&nbsp;MT&nbsp;</span><br /> --></td>
-</tr>
-<tr>
-<td style="padding: 5px;">
-<div style="font-size: 125%; font-weight: bold;">2010</div>
-</td>
-</tr>
-<tr>
-<td style="padding: 5px;">Putting the User in the Loop: Interactive Maximal Marginal Relevance for Query-Focused Summarization. In <i>Proc. NAACL (Short Papers).</i> Jimmy Lin, Nitin Madnani and Bonnie J. Dorr. [<a href="http://aclweb.org/anthology-new/N/N10/N10-1041.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/N/N10/N10-1041.bib">bib</a>]</td>
-</tr>
-<tr>
-<td style="padding: 5px;">Measuring Transitivity using Untrained Annotators. In <i>Proc. of the NAACL Workshop on Creating Speech and Language Data With Amazon&rsquo;s Mechanical Turk.</i> Nitin Madnani, Jordan Boyd-Graber and Philip Resnik. [<a href="http://aclweb.org/anthology-new/W/W10/W10-0730.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W10/W10-0730.bib">bib</a>]</td>
+<td style="padding: 5px;">Measuring Transitivity using Untrained Annotators. 2010. In <i>Proc. Workshop on Creating Speech and Language Data With Amazon&rsquo;s Mechanical Turk.</i> Nitin Madnani, Jordan Boyd-Graber and Philip Resnik. [<a href="http://aclweb.org/anthology-new/W/W10/W10-0730.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W10/W10-0730.bib">bib</a>]</td>
 <!-- &nbsp;[<a href="mturk-transitivity.zip">zip</a>]</td> -->
 </tr>
 <tr>
-<td style="padding: 5px;">Generating Phrasal &amp; Sentential Paraphrases: A Survey of Data-Driven Methods. <i>Computational Linguistics, 36(3):341-387.</i> Nitin Madnani and Bonnie Dorr. [<a href="http://www.mitpressjournals.org/doi/pdfplus/10.1162/coli_a_00002">pdf</a>]&nbsp;[<a href="bib/madnani-dorr-paraphrase-2010.bib">bib</a>]</td>
+<td style="padding: 5px;">Generating Phrasal &amp; Sentential Paraphrases: A Survey of Data-Driven Methods. 2010. <i>Computational Linguistics, 36(3):341-387.</i> Nitin Madnani and Bonnie Dorr. [<a href="http://www.mitpressjournals.org/doi/pdfplus/10.1162/coli_a_00002">pdf</a>]&nbsp;[<a href="bib/madnani-dorr-paraphrase-2010.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">The Circle of Meaning: From Translation to Paraphrasing and Back. <i>PhD Dissertation. Department of Computer Science. University of Maryland College Park.</i> [<a href="pdf/madnani-dissertation.pdf">pdf</a>]&nbsp;[<a href="bib/madnani-dissertation.bib">bib</a>]</td>
+<td style="padding: 5px;">The Circle of Meaning: From Translation to Paraphrasing and Back. 2010. <i>Doctoral Dissertation. Department of Computer Science. University of Maryland College Park.</i> [<a href="pdf/madnani-dissertation.pdf">pdf</a>]&nbsp;[<a href="bib/madnani-dissertation.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">The Python and The Elephant: Large Scale Natural Language Processing with NLTK and Dumbo. In <i>Proc. of the Eighth Annual Python Conference.</i> Nitin Madnani and Jimmy Lin. [<a href="http://pycon.blip.tv/file/3259632/">video</a>]&nbsp;[<a href="bib/pycon2010.bib">bib</a>]&nbsp;[<a href="pycon/wordlist.zip">zip</a>]</td>
+<td style="padding: 5px;">The Python and The Elephant: Large Scale Natural Language Processing with NLTK and Dumbo. 2010. In <i>Proc. of the Eighth Annual Python Conference.</i> Nitin Madnani and Jimmy Lin. [<a href="http://pycon.blip.tv/file/3259632/">video</a>]&nbsp;[<a href="bib/pycon2010.bib">bib</a>]&nbsp;[<a href="pycon/wordlist.zip">zip</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">TER-Plus: Paraphrase, Semantic, and Alignment Enhancements to Translation Edit Rate. <i>Machine Translation, 23(2-3):117-127.</i> Matthew Snover, Nitin Madnani, Bonnie Dorr and Richard Schwartz. [<a href="http://www.springerlink.com/content/m57083g71p41wu7k/">html</a>]&nbsp;[<a href="bib/snover-madnani-etal-mtjournal10.bib">bib</a>]</td>
+<td style="padding: 5px;">TER-Plus: Paraphrase, Semantic, and Alignment Enhancements to Translation Edit Rate. 2010. <i>Machine Translation, 23(2-3):117-127.</i> Matthew Snover, Nitin Madnani, Bonnie Dorr and Richard Schwartz. [<a href="http://www.springerlink.com/content/m57083g71p41wu7k/">html</a>]&nbsp;[<a href="bib/snover-madnani-etal-mtjournal10.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">
-<div style="font-size: 125%; font-weight: bold;">2009</div>
-</td>
+<td style="padding: 5px;">Fluency, Adequacy, or HTER? Exploring Different Human Judgments with a Tunable MT Metric. 2009. In <i>Proc. WMT.</i> Matthew Snover, Nitin Madnani, Bonnie Dorr and Richard Schwartz. [<a href="http://aclweb.org/anthology-new/W/W09/W09-0441.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W09/W09-0441.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Fluency, Adequacy, or HTER? Exploring Different Human Judgments with a Tunable MT Metric. In <i>Proc. WMT.</i> Matthew Snover, Nitin Madnani, Bonnie Dorr and Richard Schwartz. [<a href="http://aclweb.org/anthology-new/W/W09/W09-0441.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W09/W09-0441.bib">bib</a>]</td>
+<td style="padding: 5px;">Querying and Serving N-gram Language Models with Python. 2009. <i>The Python Papers. Volume 4, Issue 2.</i> Nitin Madnani. [<a href="pdf/langmodel.pdf">pdf</a>]&nbsp;[<a href="bib/langmodel.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Querying and Serving N-gram Language Models with Python. <i>The Python Papers. Volume 4, Issue 2.</i> Nitin Madnani. [<a href="pdf/langmodel.pdf">pdf</a>]&nbsp;[<a href="bib/langmodel.bib">bib</a>]</td>
+<td style="padding: 5px;">Source Code: Querying and Serving N-gram Language Models with Python. 2009. <i>The Python Papers Source Codes. Volume 1.</i> Nitin Madnani. [<a href="pdf/langmodel_code.pdf">pdf</a>]&nbsp;[<a href="bib/langmodel_code.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Source Code: Querying and Serving N-gram Language Models with Python. <i>The Python Papers Source Codes. Volume 1.</i> Nitin Madnani. [<a href="pdf/langmodel_code.pdf">pdf</a>]&nbsp;[<a href="bib/langmodel_code.bib">bib</a>]</td>
+<td style="padding: 5px;">Applying Automatically Generated Semantic Knowledge: A Case Study in Machine Translation. 2008. In <i>Proc. of the Symposium on Semantic Knowledge Discovery, Organization and Use.</i> Nitin Madnani, Philip Resnik, Bonnie Dorr and Richard Schwartz. [<a href="pdf/madnani-nsf-sk.pdf">pdf</a>]&nbsp;[<a href="bib/nsf08.bib">bib</a>]&nbsp;[<a href="pdf/nmadnani-nsf-semantic-poster.pdf.gz">poster</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">
-<div style="font-size: 125%; font-weight: bold;">2008</div>
-</td>
+<td style="padding: 5px;">Are Multiple Reference Translations Necessary? Investigating the Value of Paraphrased Reference Translations in Parameter Optimization. 2008. In <i>Proc. AMTA.</i> Nitin Madnani, Philip Resnik, Bonnie Dorr and Richard Schwartz. [<a href="http://www.mt-archive.info/AMTA-2008-Madnani.pdf">pdf</a>]&nbsp;[<a href="bib/amta08.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Applying Automatically Generated Semantic Knowledge: A Case Study in Machine Translation. In <i>Proc. of the Symposium on Semantic Knowledge Discovery, Organization and Use.</i> Nitin Madnani, Philip Resnik, Bonnie Dorr and Richard Schwartz. [<a href="pdf/madnani-nsf-sk.pdf">pdf</a>]&nbsp;[<a href="bib/nsf08.bib">bib</a>]&nbsp;[<a href="pdf/nmadnani-nsf-semantic-poster.pdf.gz">poster</a>]</td>
+<td style="padding: 5px;">Combining Open-Source with Research to Re-engineer a Hands-on Introductory NLP Course. 2008. In <i>Proc. of the Third ACL Workshop on Issues in Teaching Computational Linguistics (TeachCL-08).</i> Nitin Madnani and Bonnie Dorr. [<a href="http://aclweb.org/anthology-new/W/W08/W08-0209.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W08/W08-0209.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Are Multiple Reference Translations Necessary? Investigating the Value of Paraphrased Reference Translations in Parameter Optimization. In <i>Proc. AMTA.</i> Nitin Madnani, Philip Resnik, Bonnie Dorr and Richard Schwartz. [<a href="http://www.mt-archive.info/AMTA-2008-Madnani.pdf">pdf</a>]&nbsp;[<a href="bib/amta08.bib">bib</a>]</td>
+<td style="padding: 5px;">Multiple Alternative Sentence Compressions and Word-Pair Antonymy for Automatic Text Summarization and Recognizing Textual Entailment. 2008. In <i>Proc. of the Text Analysis Conference (TAC).</i> Saif Mohammad, Bonnie J. Dorr, Melissa Egan, Nitin Madnani, David Zajic, and Jimmy Lin. [<a href="pdf/umd-tac08.pdf">pdf</a>]&nbsp;[<a href="bib/umd-tac08.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Combining Open-Source with Research to Re-engineer a Hands-on Introductory NLP Course. In <i>Proc. of the Third ACL Workshop on Issues in Teaching Computational Linguistics (TeachCL-08).</i> Nitin Madnani and Bonnie Dorr. [<a href="http://aclweb.org/anthology-new/W/W08/W08-0209.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W08/W08-0209.bib">bib</a>]</td>
+<td style="padding: 5px;">TERp: A System Description. 2008. In <i>Proc. of the First NIST Metrics for Machine Translation Challenge (MetricsMATR).</i> Matt Snover, Nitin Madnani, Bonnie Dorr and Richard Schwartz. [<a href="pdf/nist_terp_desc.pdf">pdf</a>]&nbsp;[<a href="bib/matr08.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Multiple Alternative Sentence Compressions and Word-Pair Antonymy for Automatic Text Summarization and Recognizing Textual Entailment. In <i>Proc. of the Text Analysis Conference (TAC).</i> Saif Mohammad, Bonnie J. Dorr, Melissa Egan, Nitin Madnani, David Zajic, and Jimmy Lin. [<a href="pdf/umd-tac08.pdf">pdf</a>]&nbsp;[<a href="bib/umd-tac08.bib">bib</a>]</td>
+<td style="padding: 5px;">Using Paraphrases for Parameter Tuning in Statistical Machine Translation. 2007. In <i>Proc. WMT.</i> Nitin Madnani, Necip Fazil Ayan, Philip Resnik, Bonnie Dorr. [<a href="http://aclweb.org/anthology-new/W/W07/W07-0716.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W07/W07-0716.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">TERp: A System Description. In <i>Proc. of the First NIST Metrics for Machine Translation Challenge (MetricsMATR).</i> Matt Snover, Nitin Madnani, Bonnie Dorr and Richard Schwartz. [<a href="pdf/nist_terp_desc.pdf">pdf</a>]&nbsp;[<a href="bib/matr08.bib">bib</a>]</td>
+<td style="padding: 5px;">Measuring Variability in Sentence Ordering for News Summarization. 2007. In <i> Proc. ENLG.</i> Nitin Madnani, Rebecca Passonneau, John Conroy, Necip Fazil Ayan, Bonnie Dorr, Judith Klavans, Dianne O'Leary and Judith Schlesinger. [<a href="http://aclweb.org/anthology-new/W/W07/W07-2312.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W07/W07-2312.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">
-<div style="font-size: 125%; font-weight: bold;">2007</div>
-</td>
-</tr>
-<tr>
-<td style="padding: 5px;">Using Paraphrases for Parameter Tuning in Statistical Machine Translation. In <i>Proc. WMT.</i> Nitin Madnani, Necip Fazil Ayan, Philip Resnik, Bonnie Dorr. [<a href="http://aclweb.org/anthology-new/W/W07/W07-0716.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W07/W07-0716.bib">bib</a>]</td>
-</tr>
-<tr>
-<td style="padding: 5px;">Measuring Variability in Sentence Ordering for News Summarization. In <i> Proc. ENLG.</i> Nitin Madnani, Rebecca Passonneau, John Conroy, Necip Fazil Ayan, Bonnie Dorr, Judith Klavans, Dianne O'Leary and Judith Schlesinger. [<a href="http://aclweb.org/anthology-new/W/W07/W07-2312.pdf">pdf</a>]&nbsp;[<a href="http://aclweb.org/anthology-new/W/W07/W07-2312.bib">bib</a>]</td>
-</tr>
-<tr>
-<td style="padding: 5px;">Getting Started on Natural Language Processing with Python. <i>ACM Crossroads, 13(4).</i> Nitin Madnani. [<strong>Note</strong>: The PDF version has been completely revised since the official ACM version to keep up to date with the changes made to the software used in the article. ] [<a href="pdf/crossroads.pdf">pdf</a>]&nbsp;[<a href="http://www.acm.org/crossroads/xrds13-4/natural_language.html">html</a>]&nbsp;[<a href="bib/crossroads.bib">bib</a>]</td>
+<td style="padding: 5px;">Getting Started on Natural Language Processing with Python. 2007. <i>ACM Crossroads, 13(4).</i> Nitin Madnani. [<strong>Note</strong>: The PDF version has been completely revised since the official ACM version to keep up to date with the changes made to the software used in the article. ] [<a href="pdf/crossroads.pdf">pdf</a>]&nbsp;[<a href="http://www.acm.org/crossroads/xrds13-4/natural_language.html">html</a>]&nbsp;[<a href="bib/crossroads.bib">bib</a>]</td>
 </tr>
 <tr>
 <td style="padding: 5px;">TREC 2007 ciQA Task: University of Maryland. In <i> Proc. TREC.</i> Nitin Madnani, Jimmy Lin, and Bonnie Dorr. [<a href="http://trec.nist.gov/pubs/trec16/papers/umd.qa.final.pdf">pdf</a>]&nbsp;[<a href="bib/trec07.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">Multiple Alternative Sentence Compressions for Automatic Text Summarization. In <i>Proc. of the Document Understanding Conference (DUC) at HLT/NAACL.</i> Nitin Madnani, David Zajic, Bonnie Dorr, Necip Fazil Ayan and Jimmy Lin. [<a href="pdf/duc2007.pdf">pdf</a>]&nbsp;[<a href="bib/duc2007.bib">bib</a>]</td>
+<td style="padding: 5px;">Multiple Alternative Sentence Compressions for Automatic Text Summarization. 2007. In <i>Proc. of the Document Understanding Conference (DUC) at HLT/NAACL.</i> Nitin Madnani, David Zajic, Bonnie Dorr, Necip Fazil Ayan and Jimmy Lin. [<a href="pdf/duc2007.pdf">pdf</a>]&nbsp;[<a href="bib/duc2007.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">
-<div style="font-size: 125%; font-weight: bold;">2003-2005</div>
-</td>
+<td style="padding: 5px;">The Hiero Machine Translation System: Extensions, Evaluation, and Analysis. 2005. In <i>Proc. HLT/EMNLP.</i> David Chiang, Adam Lopez, Nitin Madnani, Christof Monz, Philip Resnik and Michael Subotin. [<a href="http://www.aclweb.org/anthology-new/H/H05/H05-1098.pdf">pdf</a>]&nbsp;[<a href="http://www.aclweb.org/anthology-new/H/H05/H05-1098.bib">bib</a>]</td>
 </tr>
 <tr>
-<td style="padding: 5px;">The Hiero Machine Translation System: Extensions, Evaluation, and Analysis. In <i>Proc. HLT/EMNLP.</i> David Chiang, Adam Lopez, Nitin Madnani, Christof Monz, Philip Resnik and Michael Subotin. [<a href="http://www.aclweb.org/anthology-new/H/H05/H05-1098.pdf">pdf</a>]&nbsp;[<a href="http://www.aclweb.org/anthology-new/H/H05/H05-1098.bib">bib</a>]</td>
-</tr>
-<tr>
-<td style="padding: 5px;">Rapid Porting of DUSTer to Hindi. <i>ACM Transactions on Asian Language Information Processing, 2(2).</i> Bonnie J. Dorr, Necip Fazil Ayan, Nizar Habash, Nitin Madnani, and Rebecca Hwa. [<a href="pdf/TALIP03-DUSTer.pdf">pdf</a>]&nbsp;[<a href="bib/talip.bib">bib</a>]</td>
+<td style="padding: 5px;">Rapid Porting of DUSTer to Hindi. 2003. <i>ACM Transactions on Asian Language Information Processing, 2(2).</i> Bonnie J. Dorr, Necip Fazil Ayan, Nizar Habash, Nitin Madnani, and Rebecca Hwa. [<a href="pdf/TALIP03-DUSTer.pdf">pdf</a>]&nbsp;[<a href="bib/talip.bib">bib</a>]</td>
 </tr>
 </tbody>
 </table>
-<!--
-<div id="pubhider" style="display: none; font-size: small;" mce_style="display: none; font-size: small;">[<a href="#" mce_href="#" id="hidepubs">Show Less</a>]</div>
---></div>
-<p><span class="heading">Software</span></p>
-<div class="section">
+</div>
+
+<div id="tabs-2" class="tabsection">
 <table>
 <tbody>
 <tr>
 <td style="padding: 5px;"><strong>Python &amp; Perl wrappers for SRILMs</strong>: Wrappers that will allow you to read and query an <a href="http://www.speech.sri.com/projects/srilm/">SRI language model</a> <em>directly</em> in your <a href="http://www.python.org">Python</a> and <a href="http://www.perl.org">Perl</a> code. [<a href="https://github.com/desilinguist/swig-srilm">link</a>] <br />(<strong>Note:</strong> I also have working Python and Perl wrappers for the <a href="http://sourceforge.net/apps/mediawiki/irstlm/index.php?title=Main_Page">IRSTLM</a> toolkit but I am too lazy to put them up here. Drop me a note if you are interested and I will send them to you.)</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="software/swig-srilm.tar.gz" mce_href="software/swig-srilm.tar.gz" title="Download"><img src="images/taricon.png" mce_src="images/taricon.png" alt="taricon" /></a></td>
---></tr>
+</tr>
 <tr>
 <td style="padding: 5px;"><strong>Interactive BLEU Scoring Tool</strong>: A visual and interactive environment for scoring output of automatic machine translation systems. It's written to run entirely in the browser and utilizes the latest web technologies to allow interactive qualitative examination of MT output. [<a href="http://ibleu.googlecode.com">link</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="http://ibleu.googlecode.com" mce_href="http://ibleu.googlecode.com" title="HTML"><img src="images/htmlicon.png" mce_src="images/htmlicon.png" alt="htmlicon" /></a></td>
---></tr>
+</tr>
 <tr>
 <td style="padding: 5px;"><strong>clusterinfo</strong>: A Python script that displays current usage of a PBS-based cluster in a more condensed and easier-to-read format. [<a href="software/clusterinfo.tar.gz">tgz</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="software/clusterinfo.tar.gz" mce_href="software/clusterinfo.tar.gz" title="Download"><img src="images/taricon.png" mce_src="images/taricon.png" alt="taricon" /></a></td>
---></tr>
+</tr>
 <tr>
 <td style="padding: 5px;"><strong>LM Server</strong>: A Python-based XML-RPC server for an SRILM language model. Allows multiple clients to query the same language model that's loaded in memory in server mode. [<a href="software/lm-server.tar.gz">tgz</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="software/lm-server.tar.gz" mce_href="software/lm-server.tar.gz" title="Download"><img src="images/taricon.png" mce_src="images/taricon.png" alt="taricon" /></a></td>
---></tr>
+</tr>
 <tr>
 <td style="padding: 5px;"><strong>UMIACS Word Alignment Interface</strong>: A Java-based tool for creating and viewing word alignments between language pairs. It has been widely used across the community to create aligments for many language pairs including Welsh-English, Swahili-English, Czech-English and Chinese-English. [<a href="https://github.com/desilinguist/wordalignui">link</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="http://www.umiacs.umd.edu/~nmadnani/alignment/" mce_href="http://www.umiacs.umd.edu/~nmadnani/alignment/" title="HTML"><img src="images/htmlicon.png" mce_src="images/htmlicon.png" alt="htmlicon" /></a></td>
---></tr>
-<tr>
+</tr>
+<!-- <tr>
 <td style="padding: 5px;"><strong>Patch for compiling the Charniak Parser on 64-bit Linux Systems</strong>: I used to have a patch that would allow the original Charniak Parser to compile on 64-bit Linux systems. However, the better solution is to get the latest version of the codebase from <a href="https://github.com/BLLIP/bllip-parser">here</a>. You can always download the patch if you need it. [<a href="software/charniak-patch.tar.gz">tgz</a>]
 <div style="font-size: 11pt;">[<strong>Important</strong>: Refer to the included README for additional instructions before applying the patch. This patch was developed against the Charniak Parser downloaded from Brown University FTP servers (filename: <span style="font-family: monospace;">reranking-parserAug06.tar.gz</span>, md5sum: <span style="font-family: monospace;"> da9d473b399a03dda2bc1cc248b5ce9d</span>)]</div>
 </td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="software/charniak-patch.tar.gz" mce_href="software/charniak-patch.tar.gz" title="Patch for Charnaik Parser"><img src="images/taricon.png" mce_src="images/taricon.png" alt="taricon" /></a></td>
---></tr>
+</tr> -->
 <tr>
 <td style="padding: 5px;"><strong>TER-plus (TERp)</strong>: TERp is an automatic evaluation metric for Machine Translation, which takes as input a set of reference translations, and a set of machine translation output for that same data. TERp utilizes automatically generated paraphrases, stemming, synonyms, relaxed shifting constraints and other improvements. [<a href="http://www.umiacs.umd.edu/~snover/terp/">link</a>] <br />(<strong>Note:</strong> Work done in collaboration with <a href="http://www.cs.umd.edu/~snover/">Matt Snover</a>, who is the main developer of TERp.)</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="http://www.umiacs.umd.edu/~snover/terp/" mce_href="http://www.umiacs.umd.edu/~snover/terp/" title="HTML"><img src="images/htmlicon.png" mce_src="images/htmlicon.png" alt="pdficon" /></a></td>
---></tr>
+</tr>
 </tbody>
 </table>
 </div>
+<div id="tabs-3" class="tabsection">
+<table>
+<tbody>
+<tr>
+<td style="padding: 5px;">What Test Takers Say: Analyzing Argument Organization and Topical Trends in Essays. 2013. <i>Linguistics Brown Bag at Montclair State University.</i></td>
+</tr>
+<tr>
+<td style="padding: 5px;">A Story in Pictures. 2012. <i>Entry for the Automated Student Assessment Prize Essay Visualization Contest organized by the William and Flora Hewlett Foundation.</i> [<a href="pdf/asap2/story.pdf">pdf</a>]
+<div>[<strong>Note</strong>: This entry won the first prize in the contest by popular <a href="https://www.kaggle.com/c/asap-sas/prospector#155">vote</a>. ]</div>
+</td>
+</tr>
+<tr>
+<td style="padding: 5px;">Using Statistical Machine Translation to Improve Statistical Machine Translation. 2011. <i>Yahoo! Data Sciences Seminar at Rutgers University.</i> [<a href="pdf/Rutgersv3.pdf">pdf</a>]</td>
+</tr>
+<tr>
+<td style="padding: 5px;">The Circle of Meaning: From Translation to Paraphrasing and Back. 2010. <i>NLP Seminar at CUNY Graduate Center, New York. </i></td>
+</tr>
+<tr>
+<td style="padding: 5px;">A timeline of inter-annotator agreement measures in Computational Linguistics based on <a href="http://www.mitpressjournals.org/doi/abs/10.1162/coli.07-034-R2"><i>Inter-Coder Agreement for Computational Linguistics</i></a> by Ron Artstein and Massimo Poesio. <i>Linguistics seminar on Corpus-based Social Science, University of Maryland.</i> [<a href="pdf/agreement-timeline.pdf">pdf</a>]</td>
+</tr>
+<tr>
+<td style="padding: 5px;">Using Paraphrases for Parameter Tuning in Statistical Machine Translation. 2007. <i>Annual Technical Presentation at the Technical Meeting for <a href="http://www.darpa.mil/ipto/programs/gale/">Global Autonomous Language Exploitation</a></i>.</td>
+</tr>
+<tr>
+<td style="padding: 5px;">Decoding in Statistical Machine Translation. 2006. <i>StatMT Reading Group, University of Maryland.</i> [<a href="pdf/decoding-slides.pdf">slides</a>]</td>
+</tr>
+<tr>
+<td style="padding: 5px;">Expectation Maximization. 2004. <i>Advanced NLP Seminar, University of Maryland.</i> [<a href="pdf/EM-slides.pdf">slides</a>]</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
 <!-- <p><span class="heading">Working Papers</span></p> -->
 <p></p>
 <!-- <div class="section">
@@ -307,87 +285,34 @@ Princeton, NJ 08541</dd><dt>Phone</dt><dd>(O) +1-609-734-5898</dd><dt>E-mail</dt
 </tbody>
 </table>
 </div>-->
-<p><span class="heading">Unpublished Manuscripts</span></p>
+<!-- <p><span class="heading">Unpublished Manuscripts</span></p>
 <div class="section">
 <table>
 <tbody>
 <tr>
-<td style="padding: 5px;">Active Learning for Mention Detection: A Comparison of Sentence Selection Strategies. <br /> (Available as <a href="http://arxiv.org/abs/0911.1965">arXiv:0911.1965v1</a> from the arXiv Computing Research Repository (CoRR)) <!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="http://arxiv.org/pdf/0911.1965v1" mce_href="http://arxiv.org/pdf/0911.1965v1" title="PDF"><img src="images/pdficon.png" mce_src="images/pdficon.png" alt="pdficon" /></a></td>
---></td>
+<td style="padding: 5px;">Active Learning for Mention Detection: A Comparison of Sentence Selection Strategies. <br /> (Available as <a href="http://arxiv.org/abs/0911.1965">arXiv:0911.1965v1</a> from the arXiv Computing Research Repository (CoRR)) </td>
 </tr>
 <tr>
 <td style="padding: 5px;">Emily: A Tool for Visual Poetry Analysis. [<a href="emily/emily.pdf">pdf</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="emily/emily.pdf" mce_href="emily/emily.pdf" title="PDF"><img src="images/pdficon.png" mce_src="images/pdficon.png" alt="pdficon" /></a></td>
---></tr>
-</tbody>
-</table>
-</div>
-<p><span class="heading">Selected Invited Talks</span></p>
-<div class="section">
-<table>
-<tbody>
-<tr>
-<td style="padding: 5px;">What Test Takers Say: Analyzing Argument Organization and Topical Trends in Essays. 2013. <i>Linguistics Brown Bag at Montclair State University.</i></td>
-</tr>
-<tr>
-<td style="padding: 5px;">Using Statistical Machine Translation to Improve Statistical Machine Translation. 2011. <i>Yahoo! Data Sciences Seminar at Rutgers University.</i> [<a href="pdf/Rutgersv3.pdf">pdf</a>]</td>
-</tr>
-<tr>
-<td style="padding: 5px;">The Circle of Meaning: From Translation to Paraphrasing and Back. 2010. <i>NLP Seminar at CUNY Graduate Center, New York. </i></td>
-</tr>
-<tr>
-<td style="padding: 5px;">Using Paraphrases for Parameter Tuning in Statistical Machine Translation. 2007. <i>Annual Technical Presentation at the Technical Meeting for <a href="http://www.darpa.mil/ipto/programs/gale/">Global Autonomous Language Exploitation</a></i>.</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><span class="heading">Posters</span></p>
+ --><!-- <p><span class="heading">Posters</span></p>
 <div class="section">
 <table>
 <tbody>
 <tr>
 <td style="padding: 5px;">Exploring Emily Dickinson Letters. June 2005. <i>HCIL 22nd Annual Symposium and Open House, University of Maryland</i>. Catherine Plaisant, Nitin Madnani, Matt Kirschenbaum, Martha Nell Smith, Tanya Clement, Greg Lord. [<a href="pdf/dickinson-poster.pdf">pdf</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="pdf/dickinson-poster.pdf" mce_href="pdf/dickinson-poster.pdf" title="Poster"><img src="images/pdficon.png" mce_src="images/pdficon.png" alt="pdficon" /></a></td>
---></tr>
+</tr>
 <tr>
 <td style="padding: 5px;">Portable Divergence Unraveling - The Case of Hindi. 2004. <i>Research Review Day, University of Maryland</i>. Nitin Madnani, Necip Fazil Ayan, Bonnie Dorr, Nizar Habash, Christof Monz. [<a href="pdf/rrdposter.pdf">pdf</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="pdf/rrdposter.pdf" mce_href="pdf/rrdposter.pdf" title="Poster"><img src="images/pdficon.png" mce_src="images/pdficon.png" alt="pdficon" /></a></td>
---></tr>
-</tbody>
-</table>
-</div>
-<p><span class="heading">Miscellanea</span></p>
-<div class="section">
-<table>
-<tbody>
-<tr>
-<td style="padding: 5px;">Expectation Maximization. 2004. <br /><i>Advanced NLP Seminar, University of Maryland.</i> [<a href="pdf/EM-slides.pdf">slides</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="pdf/EM-slides.pdf" mce_href="pdf/EM-slides.pdf" title="Slides"><img src="images/slideicon.png" mce_src="images/slideicon.png" alt="slideicon" /></a></td>
---></tr>
-<tr>
-<td style="padding: 5px;">Decoding in Statistical Machine Translation. 2006. <br /><i>StatMT Reading Group, University of Maryland.</i> [<a href="pdf/decoding-slides.pdf">slides</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="pdf/decoding-slides.pdf" mce_href="pdf/decoding-slides.pdf" title="Slides"><img src="images/slideicon.png" mce_src="images/slideicon.png" alt="slideicon" /></a></td>
---></tr>
-<tr>
-<td style="padding: 5px;">A timeline of inter-annotator agreement measures in Computational Linguistics based on <a href="http://www.mitpressjournals.org/doi/abs/10.1162/coli.07-034-R2"><i>Inter-Coder Agreement for Computational Linguistics</i></a> by Ron Artstein and Massimo Poesio.<br /><i>Linguistics seminar on Corpus-based Social Science, University of Maryland.</i> [<a href="pdf/agreement-timeline.pdf">pdf</a>]</td>
-<!--
-<td style="padding: 5px;" mce_style="padding: 5px;"><a class="image" href="pdf/agreement-timeline.pdf" mce_href="pdf/agreement-timeline.pdf" title="Timeline"><img src="images/pdficon.png" mce_src="images/pdficon.png" alt="pdficon" /></a></td>
---></tr>
-<tr>
-<td style="padding: 5px;">A Story in Pictures. 2012. <br /><i>Entry for the Automated Student Assessment Prize Essay Visualization Contest organized by the William and Flora Hewlett Foundation.</i> [<a href="pdf/asap2/story.pdf">pdf</a>]
-<div>[<strong>Note</strong>: This entry won the first prize in the contest by popular <a href="https://www.kaggle.com/c/asap-sas/prospector#155">vote</a>. ]</div>
-</td>
 </tr>
 </tbody>
 </table>
-</div>
-<p><span class="heading">Service</span></p>
+</div> -->
+
+<!-- <p><span class="heading">Service</span></p>
 <div class="section">
 <ul>
 <li>Developer &amp; Project Member, <a href="http://www.nltk.org">Natural Language ToolKit</a></li>
@@ -406,6 +331,7 @@ Princeton, NJ 08541</dd><dt>Phone</dt><dd>(O) +1-609-734-5898</dd><dt>E-mail</dt
 <li>Reviewer, ACL 2007</li>
 <li>Reviewer, IJCNLP 2005</li>
 </ul>
-</div>
+</div> -->
+<br/>
 </body>
-
+</html>

@@ -8,54 +8,27 @@ body {
   background-color: #fffefc;
 }
 
-tt {
-  font-size: 11pt;
-}
-
-tbody {
-  font-size: 11pt;
-}
-
-
-pre {
-  font-size: 10pt;
-}
-
 dl {
   font-size: 11pt;
   line-height: 17pt;
 }
 
-smalltext {
-  font-size: 9pt;
+td {
+  font-family: georgia;
+  font-size: 85%;
 }
 
-a:focus,
-a:hover     { color: #990000; border-bottom:1px solid #990000; }
-a           { color: #990000; text-decoration: none; border-bottom:1px dashed #990000; }
+a:focus,a:hover { color: #990000; border-bottom:1px solid #990000; }
+a               { color: #990000; text-decoration: none; }
 
-a.image     { border-bottom: none; }
+.image     { border-bottom: none; }
 
-span.heading {
+.heading {
   font-weight: bold;
   font-size: large;
 }
 
-img         { border: none;}
-/*a:link {
-  text-decoration: none;
-  color: #990000;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #660000;
-}*/
-
-div.section {
-  /*background-color: #E8E8E8;*/
-  /*padding: 10px 10px 10px 10px;*/
-}
+img { border: none;}
 
 h1 {
  font-size: 20pt;
@@ -72,75 +45,43 @@ h3 {
  font-weight: normal;
 }
 
-.MT {
- font-size: 75%;
- color: white;
- background-color: #dc143c;
- vertical-align: middle;
- text-align: center;
-}
-
-.paraphrase {
- font-size: 75%;
- color: white;
- background-color: #006400;
- vertical-align: middle;
- text-align: center;
-}
-
-.crowd {
- font-size: 75%;
- color: white;
- background-color: #6633cc;
- vertical-align: middle;
- text-align: center;
-}
-
-.IR {
- font-size: 75%;
- color: white;
- background-color: #ffd700;
- vertical-align: middle;
- text-align: center;
+.tabsection {
+  height: 475px;
+  overflow: auto;
 }
 
 
-.IE {
- font-size: 75%;
- color: white;
- background-color: #8b7355;
- vertical-align: middle;
- text-align: center;
+
+#tabs .ui-widget-header {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #c0c0c0;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-family:georgia;
+    font-size: 85%;
 }
 
-.python {
- font-size: 75%;
- color: white;
- background-color: #ff7f24;
- vertical-align: middle;
- text-align: center;
+
+#tabs .ui-tabs-nav .ui-state-default {
+    /*background: transparent;*/
+    border: none;
+}
+#tabs .ui-tabs-nav .ui-state-active {
+    background: no-repeat bottom center;
+    border: none;
 }
 
-.teaching {
- font-size: 75%;
- color: white;
- background-color: #7f7f7f;
- vertical-align: middle;
- text-align: center;
+#tabs .ui-tabs-nav .ui-state-default a {
+    color: #c0c0c0;
 }
 
-.grammar {
- font-size: 75%;
- color: white;
- background-color: #00008b;
- vertical-align: middle;
- text-align: center;
+#tabs .ui-tabs-nav .ui-state-active a {
+    color: #990000;
 }
 
-.summ {
- font-size: 75%;
- color: white;
- background-color: #8b008b;
- vertical-align: middle;
- text-align: center;
+#tabs a {
+    color: #990000;
 }
+
