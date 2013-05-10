@@ -46,7 +46,8 @@ h3 {
 
 .tabsection {
   height: 475px;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #tabs .ui-widget-header {
