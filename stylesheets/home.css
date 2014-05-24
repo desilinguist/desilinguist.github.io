@@ -1,9 +1,9 @@
 body {
-  margin-left: 40pt;
+  margin-left: 80pt;
   margin-top: 40pt;
   width: 570pt;
-  font-family: georgia, optima, palatino, verdana, arial, sans-serif;
-  font-size: 85%;
+  font-family: Merriweather, georgia, optima, palatino, verdana, arial, sans-serif;
+  font-size: 14px;
   line-height: 15pt;
   background-color: #fffefc;
 }
@@ -13,8 +13,8 @@ dl {
 }
 
 td {
-  font-family: georgia;
-  font-size: 85%;
+  font-family: Merriweather, georgia;
+  font-size: 13px;
 }
 
 a:focus,a:hover { color: #990000; border-bottom:1px solid #990000; }
@@ -57,7 +57,7 @@ h3 {
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
     border-radius: 0px;
-    font-family: georgia, optima, palatino, verdana, arial, sans-serif;
+    font-family: Merriweather, georgia, optima, palatino, verdana, arial, sans-serif;
 }
 
 
