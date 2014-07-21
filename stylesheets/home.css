@@ -74,7 +74,7 @@ a.imglink {
 
 .firstchildbox {
     position: relative;
-    background: #ffffff;
+    background-color: #fffefc;
     border: 2px solid #000000;
     padding-left: 20px;
     padding-top: 5px;
@@ -106,7 +106,7 @@ a.imglink {
 
 .secondchildbox {
     position: relative;
-    background: #ffffff;
+    background-color: #fffefc;
     border: 2px solid #000000;
     padding-left: 20px;
     padding-top: 5px;
@@ -139,7 +139,7 @@ a.imglink {
 
 .thirdchildbox {
     position: relative;
-    background: #ffffff;
+    background-color: #fffefc;
     border: 2px solid #000000;
     padding-left: 20px;
     padding-top: 5px;
@@ -172,7 +172,7 @@ a.imglink {
 
 .fourthchildbox {
     position: relative;
-    background: #ffffff;
+    background-color: #fffefc;
     border: 2px solid #000000;
     padding-left: 20px;
     padding-top: 5px;
