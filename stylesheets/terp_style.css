@@ -1,0 +1,85 @@
+h1 {font-variant: small-caps;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+h2 {font-variant: small-caps;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+h3 {font-variant: small-caps;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+td { text-align: left; }
+
+#sumtable {
+    font-size: 14px;    
+    font-family: monospace;
+}
+
+#sumtable tr td {
+    padding: 1px 5px;
+}
+
+#label { font-weight: bold; 
+         white-space: nowrap; 
+	 text-align: left;
+	 vertical-align: top;
+	 padding-right: 10px;
+	 padding-bottom: 5px;
+	 padding-top: 5px;
+}
+
+#alignment{ font-size: 12px; 
+	  }
+#alignment TR { margin: 0px; padding: 0px;}
+#alignment TR TD { margin: 0px; }
+
+td.alignM, td.alignS, td.alignP, td.alignY, td.alignT, td.alignD, td.alignI {
+    font-family: monospace; 
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 3px;
+    white-space: nowrap;
+}
+td.alignS, td.alignP, td.alignY, td.alignT, td.alignD, td.alignI {
+	font-weight: bold;
+}
+
+td.alignM { background-color: white; color: black; }
+td.alignS { background-color: pink; font-weight: bold; }
+td.alignP { background-color: lightgray; font-weight: bold;}
+td.alignY { background-color: yellow; font-weight: bold;}
+td.alignT { background-color: lightgreen; font-weight: bold;}
+td.alignD, td.alignI { background-color: black; color: white; font-weight: bold}
+
+#blank {background-color: white; color: black; }
+
+#shifttable, #phrasetable { font-size: small; }
+#shifttable tr td, #phrasetable tr td { 
+    padding: 2px 5px; 
+    white-space: nowrap; 
+}
+#header { font-weight: bold; }
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:name, a.name {	 
+	color: black; 
+	text-decoration: none; 
+}
+
