@@ -48,7 +48,7 @@ a.imglink {
 }
 
 /* Nav Tree */
-#firstchild, #secondchild, #thirdchild, #fourthchild {
+#firstchild, #secondchild, #thirdchild, #fourthchild, #fifthchild {
     cursor: pointer;
 }
 
@@ -56,17 +56,17 @@ a.imglink {
     text-decoration: underline;
 }
 */
-#secondchild tspan, #thirdchild tspan, #fourthchild tspan {
+#secondchild tspan, #thirdchild tspan, #fourthchild tspan, #fifthchild tspan {
     fill: #C0C0C0;
 }
 
-#secondchild path, #thirdchild path, #fourthchild path {
+#secondchild path, #thirdchild path, #fourthchild path, #fifthchild path {
     stroke: #C0C0C0;
 }
 
 /* Arrow Boxes */
 
-.secondchildbox, .thirdchildbox, .fourthchildbox {
+.secondchildbox, .thirdchildbox, .fourthchildbox, .fifthchildbox {
     display: none;
 }
 
@@ -82,7 +82,7 @@ a.imglink {
 
 .firstchildbox:after, .firstchildbox:before {
     bottom: 100%;
-    left: 5%;
+    left: 6%;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -114,7 +114,7 @@ a.imglink {
 
 .secondchildbox:after, .secondchildbox:before {
     bottom: 100%;
-    left: 30%;
+    left: 28%;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -147,7 +147,7 @@ a.imglink {
 
 .thirdchildbox:after, .thirdchildbox:before {
     bottom: 100%;
-    left: 67%;
+    left: 47%;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -180,7 +180,7 @@ a.imglink {
 
 .fourthchildbox:after, .fourthchildbox:before {
     bottom: 100%;
-    left: 92%;
+    left: 69%;
     border: solid transparent;
     content: " ";
     height: 0;
@@ -196,6 +196,39 @@ a.imglink {
     margin-left: -10px;
 }
 .fourthchildbox:before {
+    border-color: rgba(194, 225, 245, 0);
+    border-bottom-color: #000000;
+    border-width: 13px;
+    margin-left: -13px;
+}
+
+
+.fifthchildbox {
+    position: relative;
+    background-color: #fffefc;
+    border: 2px solid #000000;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.fifthchildbox:after, .fifthchildbox:before {
+    bottom: 100%;
+    left: 91%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.fifthchildbox:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-bottom-color: #ffffff;
+    border-width: 10px;
+    margin-left: -10px;
+}
+.fifthchildbox:before {
     border-color: rgba(194, 225, 245, 0);
     border-bottom-color: #000000;
     border-width: 13px;
