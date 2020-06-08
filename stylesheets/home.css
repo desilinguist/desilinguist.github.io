@@ -6,7 +6,7 @@ body {
     width: 760px;
     font-family: Merriweather, georgia, optima, palatino, verdana, arial, sans-serif;
     font-size: 16px;
-    line-height: 15pt;
+    line-height: 17pt;
     background-color: #fffefc;
 }
 
@@ -27,7 +27,7 @@ h3 {
 
 td {
     font-family: Merriweather, georgia;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /* Links */
