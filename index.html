@@ -15,12 +15,12 @@
     </script>
     <script>
         jQuery(document).ready(function($) {
-    
+
             $('g[id$="child"]').click(function() {
-    
+
                 var childToShow = $(this).attr('id');
                 var boxToShow = childToShow + 'box';
-    
+
                 // hide the box that was being shown
                 // and change the color of the branch to grey.
                 var boxToHide = $('div[class$="childbox"]:not(:hidden)').attr('class');
@@ -28,15 +28,15 @@
                 $('div.' + boxToHide).hide();
                 $('g#' + childToHide + ' tspan').css('fill', '#C0C0C0');
                 $('g#' + childToHide + ' path').css('stroke', '#C0C0C0');
-    
+
                 // show this box and change branch color to black
                 $('div.' + boxToShow).fadeIn("slow");
                 $('g#' + childToShow + ' tspan').css('fill', '#000000');
                 $('g#' + childToShow + ' path').css('stroke', '#000000');
-    
+
                 // make sure the content in the shown box is scrolled to the very top
                 $('div.' + boxToShow + ' div.boxcontent').scrollTop(0);
-    
+
                 // scroll to the top of the box
                 // $('html, body').animate({
                 //     scrollTop: $('div.' + boxToShow).height()
@@ -102,11 +102,11 @@
     <div class="firstchildbox">
         <div id="boxcontent">
             <p>I am a Distinguished Research Engineer with the AI Research Labs at the <a href="http://www.ets.org">Educational Testing Service</a>. I obtained my Ph.D. from the <a href="http://www.cs.umd.edu">Department of Computer Science</a> at <a href="http://www.umd.edu">University of Maryland, College Park</a>. I was also a graduate research assistant in the <a href="http://www.umiacs.umd.edu/research/CLIP">Computational Linguistics and Information Processing Laboratory</a> at the <a href="http://www.umiacs.umd.edu">Institute for Advanced Computer Studies</a>, where I worked with my advisor, <a href="http://www.umiacs.umd.edu/~bonnie">Bonnie Dorr</a>.</p>
-            
+
             <p>In general, my research has been focused on building systems&mdash;with underlying computational models of language&mdash;that process written text so as to enhance our experience with those texts. As an example, in my dissertation, I demonstrated the existence of a concrete symbiotic semantic relationship between systems that translate text and those that paraphrase text; I then exploited this relationship to build better translation and paraphrasing systems. Besides machine translation and paraphrase generation, I have also worked on automatic summarization and information retrieval systems. I am also particularly interested in information and data visualization and over the last few years, I have worked on some interesting projects such as <a href="http://www.desilinguist.org/emily">visualizing poetry for humanity scholars</a> and <a href="https://github.com/desilinguist/ibleu">interactive scoring for statistical machine translation systems</a>.</p>
 
             <p>My work at ETS has allowed to me to apply NLP techniques to build useful educational applications and technologies. Some examples include mining Wikipedia revision history to correct grammatical errors, using paraphrase generation to improve sentiment analysis of essay data, and automatically detecting organizational elements in argumentative discourse.</p>
-            
+
             <p>I also currently serve as the Information Technology Director for the Association for Computational Linguistics (ACL) with the goal of transforming its current IT infrastructure into a more modern, efficient, robust, and collaborative version of itself.</p>
 
             <p>I have also had a great time teaching computer science during my days as a graduate student and I am hoping to be involved with more of that in the future.</p>
@@ -493,13 +493,13 @@
                         <td style="padding: 5px;">Chief Information Officer, <a href="https://aclweb.org">Association for Computational Linguistics</a> (2019-2024).</td>
                     </tr>
                     <tr>
+                        <td style="padding: 5px;">Action Editor, <a href="https://transacl.org/index.php/tacl">Transactions of the Association for Computational Linguistics (TACL)</a> (2020-2024).</td>
+                    </tr>
+                    <tr>
                         <td style="padding: 5px;">Area Chair (Resources & Evaluation), <a href="https://sites.google.com/view/starsem2021/home">*SEM 2021</a>.</td>
                     </tr>
                     <tr>
                         <td style="padding: 5px;">Senior Area Chair (NLP Applications), <a href="https://2021.naacl.org">NAACL 2021</a>.</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 5px;">Action Editor, <a href="https://transacl.org/index.php/tacl">Transactions of the Association for Computational Linguistics (TACL)</a> (2020-2022).</td>
                     </tr>
                     <tr>
                         <td style="padding: 5px;">Judge for Computer Science Category, <a href="https://undergraduateawards.com">The Global Undergraduate Awards</a>, 2020.</td>
