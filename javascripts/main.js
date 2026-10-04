@@ -63,8 +63,16 @@
     var pronounceLink = document.getElementById('pronounce-link');
 
     if (window.Howl) {
+        // iOS silences Web Audio when the mute switch is on and is picky
+        // about it in general; HTML5 audio plays through the media channel
+        // there, so use it on iOS only. (iPadOS reports as Macintosh, hence
+        // the maxTouchPoints check.)
+        var isIOS = /iP(hone|ad|od)/.test(navigator.userAgent) ||
+            (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
         var pronunciation = new Howl({
             src: ['name.mp3'],
+            html5: isIOS,
             onplay: function () {
                 pronounceLink.classList.add('playing');
             },
